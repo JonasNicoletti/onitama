@@ -24,6 +24,9 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          REACT_APPWRITE_FUNCTION_PROJECT_ID: ${{ secrets.APPWRITE_FUNCTION_PROJECT_ID }}
+          
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2

@@ -1,4 +1,4 @@
-import { Center, Flex, Grid, GridItem, HStack, Button, useDisclosure, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Tag, VStack, Spinner, Heading, Divider, Input } from '@chakra-ui/react'
+import { Center, Flex, Grid, GridItem, HStack, Button, useDisclosure, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, VStack, Spinner, Heading, Input } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import { functions, client } from './lib/appwrite';
 import { Piece, Coordinate, Turn, Cards, Move } from './types';
